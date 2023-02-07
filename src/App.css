@@ -1,0 +1,47 @@
+body {
+  background: rgb(49, 49, 49);
+}
+
+.counter {
+  background: rgb(59, 59, 59);
+  border: 2px solid slateblue;
+  width: 600px;
+  height: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.counter h1 {
+  color: slateblue;
+  display: flex;
+  justify-content: center;
+}
+
+.state span {
+  color: slateblue;
+  font-size: 3rem;
+  display: inline-block;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+
+.buttons button {
+  padding: 0.7rem;
+  background-color: slateblue;
+  color: whitesmoke;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+}
