@@ -14,7 +14,7 @@ export const reducer = (state = intialState, action) => {
             return { count: state.count = 0}
 
         case SET:
-            return { count: action.payload }
+            return { count: state.count + parseInt(action.payload) }
 
         default:
             return state
